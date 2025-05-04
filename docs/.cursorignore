@@ -1,0 +1,35 @@
+# Ignore node_modules and virtualenvs
+node_modules/
+.venv/
+env/
+__pycache__/
+
+# Ignore system and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+*.sqlite
+*.db
+
+# Ignore build artifacts
+dist/
+build/
+*.egg-info/
+coverage/
+
+# Ignore tests outputs and cache
+*.pytest_cache/
+.nox/
+htmlcov/
+
+# Ignore n8n backup and large blob folders
+/workflows/backups/
+/n8n/storage/
+
+# Ignore Git & Cursor specific junk
+.git/
+.cursor/
+*.swp
+*.tmp
